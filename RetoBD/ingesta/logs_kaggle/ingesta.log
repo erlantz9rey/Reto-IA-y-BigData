@@ -1,0 +1,14 @@
+2025-11-12 15:10:16 - INFO - Proceso de ingesta unificada iniciado
+2025-11-12 15:10:38 - INFO - Descarga iniciada desde Kaggle: syedanwarafridi/vehicle-sales-data
+2025-11-12 15:10:45 - INFO - Archivo guardado correctamente: datasets_kaggle\CochesVentas.csv
+2025-11-12 15:10:45 - INFO - CochesVentas.csv: 558837 filas y 16 columnas.
+2025-11-12 15:10:45 - INFO - Descarga completada: syedanwarafridi/vehicle-sales-data en 29.26 segundos
+2025-11-12 15:10:49 - INFO - Dataset descargado con kagglehub: missionjee/car-sales-report
+2025-11-12 15:10:49 - INFO - CSV guardado en: datasets_kaggle\Personas.csv
+2025-11-12 15:10:49 - WARNING - Carpeta temporal eliminada: C:\Users\iabd\.cache\kagglehub\datasets
+2025-11-12 15:10:49 - INFO - Descarga con kagglehub completada en 3.27 segundos
+2025-11-12 15:10:49 - INFO - Descarga desde GitHub completada en 0.37 segundos
+2025-11-12 15:11:05 - INFO - Archivo guardado correctamente: datasets_kaggle\ModelosCoches.csv
+2025-11-12 15:11:05 - INFO - ModelosCoches.csv: 47523 filas y 84 columnas.
+2025-11-12 15:11:05 - INFO - Descarga desde OpenDataSoft completada en 15.23 segundos
+2025-11-12 15:11:05 - INFO - Ingesta completada correctamente

@@ -1,0 +1,82 @@
+2025-11-12 15:13:03,715 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:13:03,982 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:13:03,983 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:13:03,999 [INFO] Iniciando producción del tópico 'InfoMarcas' desde el archivo 'InfoMarcas.csv'
+2025-11-12 15:13:04,121 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:13:04,125 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:13:04,125 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:13:04,193 [WARNING] Topic InfoMarcas is not available during auto-create initialization
+2025-11-12 15:13:04,404 [INFO] Producción completada del tópico 'InfoMarcas' (40 registros en 0.41 segundos)
+2025-11-12 15:13:04,404 [INFO] Iniciando producción del tópico 'Personas' desde el archivo 'Personas.csv'
+2025-11-12 15:13:04,482 [WARNING] Topic Personas is not available during auto-create initialization
+2025-11-12 15:13:07,833 [INFO] 10000 registros producidos al tópico 'Personas'
+2025-11-12 15:13:12,298 [INFO] 20000 registros producidos al tópico 'Personas'
+2025-11-12 15:13:14,580 [INFO] Producción completada del tópico 'Personas' (23906 registros en 10.18 segundos)
+2025-11-12 15:13:14,581 [INFO] Iniciando producción del tópico 'ModelosCoches' desde el archivo 'ModelosCoches.csv'
+2025-11-12 15:13:14,679 [WARNING] Topic ModelosCoches is not available during auto-create initialization
+2025-11-12 15:13:30,206 [INFO] 10000 registros producidos al tópico 'ModelosCoches'
+2025-11-12 15:13:49,581 [INFO] 20000 registros producidos al tópico 'ModelosCoches'
+2025-11-12 15:14:10,528 [INFO] 30000 registros producidos al tópico 'ModelosCoches'
+2025-11-12 15:14:29,001 [INFO] 40000 registros producidos al tópico 'ModelosCoches'
+2025-11-12 15:14:43,870 [INFO] Producción completada del tópico 'ModelosCoches' (47523 registros en 89.29 segundos)
+2025-11-12 15:14:43,870 [INFO] Iniciando producción del tópico 'CochesVentas' desde el archivo 'CochesVentas.csv'
+2025-11-12 15:14:43,965 [WARNING] Topic CochesVentas is not available during auto-create initialization
+2025-11-12 15:14:47,002 [INFO] 10000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:14:50,856 [INFO] 20000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:14:54,964 [INFO] 30000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:14:59,250 [INFO] 40000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:03,615 [INFO] 50000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:12,766 [INFO] 60000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:22,268 [INFO] 70000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:30,024 [INFO] 80000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:34,381 [INFO] 90000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:39,006 [INFO] 100000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:43,076 [INFO] 110000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:47,094 [INFO] 120000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:51,415 [INFO] 130000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:15:56,176 [INFO] 140000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:00,216 [INFO] 150000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:05,228 [INFO] 160000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:09,360 [INFO] 170000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:13,604 [INFO] 180000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:18,237 [INFO] 190000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:22,561 [INFO] 200000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:27,219 [INFO] 210000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:32,185 [INFO] 220000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:36,383 [INFO] 230000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:43,483 [INFO] 240000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:48,586 [INFO] 250000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:16:58,314 [INFO] 260000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:06,505 [INFO] 270000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:12,571 [INFO] 280000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:17,578 [INFO] 290000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:22,264 [INFO] 300000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:27,273 [INFO] 310000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:32,297 [INFO] 320000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:37,333 [INFO] 330000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:41,891 [INFO] 340000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:47,757 [INFO] 350000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:52,802 [INFO] 360000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:17:57,538 [INFO] 370000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:18:02,752 [INFO] 380000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:18:08,170 [INFO] 390000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:18:40,924 [INFO] 400000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:19:39,075 [INFO] 410000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:19:54,822 [INFO] 420000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:23,232 [INFO] 430000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:30,466 [INFO] 440000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:38,852 [INFO] 450000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:46,203 [INFO] 460000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:53,814 [INFO] 470000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:20:59,775 [INFO] 480000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:06,014 [INFO] 490000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:11,042 [INFO] 500000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:15,828 [INFO] 510000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:21,010 [INFO] 520000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:25,134 [INFO] 530000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:31,154 [INFO] 540000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:35,772 [INFO] 550000 registros producidos al tópico 'CochesVentas'
+2025-11-12 15:21:40,438 [INFO] Producción completada del tópico 'CochesVentas' (558837 registros en 416.57 segundos)
+2025-11-12 15:21:40,439 [INFO] <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-11-12 15:21:40,440 [INFO] <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:21:40,441 [INFO] Todos los tópicos fueron producidos correctamente.

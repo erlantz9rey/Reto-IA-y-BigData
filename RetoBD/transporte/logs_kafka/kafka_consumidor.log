@@ -1,0 +1,90 @@
+2025-11-12 15:22:32,351 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:32,372 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:22:32,372 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:32,373 [WARNING] group_id is None: disabling auto-commit.
+2025-11-12 15:22:32,374 [INFO] Iniciando consumo del topico 'InfoMarcas'
+2025-11-12 15:22:32,390 [INFO] Updating subscribed topics to: ['InfoMarcas']
+2025-11-12 15:22:32,505 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:32,511 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:32,511 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:32,526 [INFO] Updated partition assignment: [TopicPartition(topic='InfoMarcas', partition=0)]
+2025-11-12 15:22:32,538 [INFO] Resetting offset for partition TopicPartition(topic='InfoMarcas', partition=0) to offset 0.
+2025-11-12 15:22:37,577 [INFO] Consumo completado del topic 'InfoMarcas' (40 registros en 5.18 segundos)
+2025-11-12 15:22:37,578 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:37,578 [INFO] Fetch to node 0 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>
+2025-11-12 15:22:37,581 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:37,597 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:22:37,597 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:37,597 [WARNING] group_id is None: disabling auto-commit.
+2025-11-12 15:22:37,598 [INFO] Iniciando consumo del topico 'Personas'
+2025-11-12 15:22:37,610 [INFO] Updating subscribed topics to: ['Personas']
+2025-11-12 15:22:37,716 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:37,723 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:37,723 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:37,732 [INFO] Updated partition assignment: [TopicPartition(topic='Personas', partition=0)]
+2025-11-12 15:22:37,743 [INFO] Resetting offset for partition TopicPartition(topic='Personas', partition=0) to offset 0.
+2025-11-12 15:22:54,280 [INFO] Consumo completado del topic 'Personas' (9844 registros en 16.61 segundos)
+2025-11-12 15:22:54,281 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:54,281 [INFO] Fetch to node 0 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>
+2025-11-12 15:22:54,290 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:54,722 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:22:54,722 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:54,723 [WARNING] group_id is None: disabling auto-commit.
+2025-11-12 15:22:54,723 [INFO] Iniciando consumo del topico 'ModelosCoches'
+2025-11-12 15:22:54,925 [INFO] Updating subscribed topics to: ['ModelosCoches']
+2025-11-12 15:22:55,039 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:22:55,257 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:22:55,257 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:55,499 [INFO] Updated partition assignment: [TopicPartition(topic='ModelosCoches', partition=0)]
+2025-11-12 15:22:55,736 [INFO] Resetting offset for partition TopicPartition(topic='ModelosCoches', partition=0) to offset 0.
+2025-11-12 15:22:59,931 [WARNING] El topico 'ModelosCoches' esta vacio (0 registros en 5.01 segundos)
+2025-11-12 15:22:59,932 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:22:59,932 [INFO] Fetch to node 0 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>
+2025-11-12 15:22:59,935 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:00,974 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:23:00,975 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:23:00,976 [WARNING] group_id is None: disabling auto-commit.
+2025-11-12 15:23:00,976 [INFO] Iniciando consumo del topico 'CochesVentas'
+2025-11-12 15:23:01,585 [INFO] Updating subscribed topics to: ['CochesVentas']
+2025-11-12 15:23:01,692 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:02,476 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:23:02,477 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:23:03,170 [INFO] Updated partition assignment: [TopicPartition(topic='CochesVentas', partition=0)]
+2025-11-12 15:23:04,049 [INFO] Resetting offset for partition TopicPartition(topic='CochesVentas', partition=0) to offset 0.
+2025-11-12 15:23:06,587 [WARNING] El topico 'CochesVentas' esta vacio (0 registros en 5.00 segundos)
+2025-11-12 15:23:06,588 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:23:06,588 [INFO] Fetch to node 0 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>
+2025-11-12 15:23:06,588 [INFO] Finalizó el proceso de consumo de todos los topics.
+2025-11-12 15:23:20,517 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:22,530 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:23:22,532 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:24,534 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:23:24,538 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:26,158 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <checking_api_versions_recv> [IPv4 ('192.168.41.51', 9092)]>: Broker version identified as 2.6
+2025-11-12 15:23:26,158 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:23:26,159 [WARNING] group_id is None: disabling auto-commit.
+2025-11-12 15:23:26,159 [INFO] Iniciando consumo del topico 'ModelosCoches'
+2025-11-12 15:23:26,794 [INFO] Updating subscribed topics to: ['ModelosCoches']
+2025-11-12 15:23:26,897 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:27,593 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Connection complete.
+2025-11-12 15:23:27,594 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:23:28,227 [INFO] Updated partition assignment: [TopicPartition(topic='ModelosCoches', partition=0)]
+2025-11-12 15:23:29,463 [INFO] Resetting offset for partition TopicPartition(topic='ModelosCoches', partition=0) to offset 0.
+2025-11-12 15:23:31,803 [WARNING] El topico 'ModelosCoches' esta vacio (0 registros en 5.01 segundos)
+2025-11-12 15:23:31,804 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>: Closing connection. 
+2025-11-12 15:23:31,805 [INFO] Fetch to node 0 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=192.168.41.51:9092 <connected> [IPv4 ('192.168.41.51', 9092)]>
+2025-11-12 15:23:31,808 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:23:33,812 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:23:33,813 [INFO] Finalizó el proceso de consumo de todos los topics.
+2025-11-12 15:25:12,883 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:14,895 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:25:14,899 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:16,907 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:25:16,911 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:18,913 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:25:18,915 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:28,777 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:30,783 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:25:30,788 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
+2025-11-12 15:25:32,795 [ERROR] Error: No se puede conectar con el broker Kafka.
+2025-11-12 15:25:32,798 [INFO] <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=192.168.41.51:9092 <connecting> [IPv4 ('192.168.41.51', 9092)]>: connecting to 192.168.41.51:9092 [('192.168.41.51', 9092) IPv4]
